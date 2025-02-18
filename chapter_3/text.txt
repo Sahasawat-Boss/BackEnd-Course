@@ -1,1 +1,1 @@
-cd chapter_3> 
+cd chapter_3 
