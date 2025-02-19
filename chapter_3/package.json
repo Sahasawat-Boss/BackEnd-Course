@@ -2,13 +2,15 @@
   "name": "chapter_3",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "node --watch --env-file=.env --experimental-strip-types --experimental-sqlite ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A full stack to do app uses a NodeJs backend, SQLite DB and JWT Auth",
   "dependencies": {
     "bcryptjs": "^3.0.1",
     "express": "^4.21.2",
